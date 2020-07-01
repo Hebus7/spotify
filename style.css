@@ -1,0 +1,234 @@
+body{
+    color: white;
+    margin: 0;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+background-color: black; 
+height: 60px; 
+display: flex;
+justify-content: center;
+
+
+}
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.details{
+    margin-top: 50px;
+   margin-right: 800px;
+   margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: xx-small;
+    
+    
+}
+section{
+   
+    height: 800px;
+    background-color: #f037a5;
+  background: linear-gradient(#f037a5 -60%, #fae62d 140%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(-60%, #f037a5),
+    color-stop(140%, #fae62d)
+  );
+}
+
+.section-area{
+    display: flex;
+    align-items:center;
+
+}
+
+footer{
+    background-color: black;
+    height: 300px;
+    
+
+}
+.container{
+
+max-width: 1024px;
+width: 100%;
+
+
+
+
+
+}
+.footer-top{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 170px;
+    align-content: center;
+    
+}
+
+.nav-area{
+   
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+.labase{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+}
+
+.hero-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://www.scdn.co/i/home/hero-burst.svg");
+  }
+  #title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 1.15;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: -0.04em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  section .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+footer .container{
+   
+    flex-direction: row;
+    justify-content: center; 
+}
+  .btn-spotify {
+    border: 0px;
+    width: 260px;
+    color: white;
+    margin: 0 auto;
+    line-height: 1;
+    font-size: 14px;
+    margin-top: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 500px;
+    padding: 18px 42px 18px;
+    background-color: #1db954;
+    text-transform: uppercase;
+    transition-duration: 0.3s;
+  }
+  .btn-spotify:hover {
+    cursor: pointer;
+    background-color: #1ed760;
+  }
+ 
+
+
+
+  .column > h1 {
+    color: #919496;
+    font-size: 13.5px;
+   
+  }
+  
+  .column > h1,
+  p {
+    margin-bottom: 15px;
+  }
+  
+  .footer-logo {
+    display: flex;
+    justify-content: flex-start;
+
+
+  }
+  
+  .footer-logo > h1 {
+    color: white;
+    font-size: 2em;
+    margin-left: 15px;
+    margin-right: 100px;
+    margin-bottom: 15px;
+  }
+
+  
+  .footer-icons {
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .footer-icons > .fab {
+    margin: 15px;
+  }
+  
+  .footer-icons > .fab:hover {
+    color: green;
+  }
+  
+  .footer {
+    display: flex;
+    align-content: space-between;
+    padding: 20px;
+  }
+  
+  .container > .left {
+    flex: 1;
+    justify-content: space-between;
+  }
+  .container > .right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .fab {
+    font-size: 50px;
+  }
+  
+  a:hover {
+    color: green;
+  }
+  
+  .column > p:hover {
+    color: green;
+    cursor: pointer;
+  }
+  
+  .left > p:hover {
+    color: green;
+  }
+  .column{
+      margin-left: 50px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      margin-right: 50px;
+  }
+  .box{
+background-color: grey;
+width: 50px;
+height: 50px;
+border-radius: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+  }
